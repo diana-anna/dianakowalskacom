@@ -13,8 +13,8 @@ pygmentscodefencesguesssyntax = true
 
 [params]
   author = "Diana Kowalska"
-  info = "Software Engineer"
-  description = "John Doe's personal website"
+  info = ""
+  description = "Diana Kowalska's personal website"
   keywords = "blog,developer,personal"
   avatarURL = "images/avatar.jpg"
   #gravatar = "diana@dianakowalska.com"
