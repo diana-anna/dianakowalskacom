@@ -1,0 +1,6 @@
+* dianakowalska.com
+
+[[https://app.netlify.com/sites/dianakowalska/deploys][file:https://api.netlify.com/api/v1/badges/4a911212-9976-4bb7-a929-01c886e7b17b/deploy-status.svg]]
+[[https://develop.spacemacs.org][file:https://cdn.rawgit.com/syl20bnr/spacemacs/442d025779da2f62fc86c2082703697714db6514/assets/spacemacs-badge.svg]]
+
+Source code for my personal website.
