@@ -23,7 +23,7 @@ $ git submodule update
 
 ** Local Development
 
-To compile the website, running
+To compile the website, run
 
 #+BEGIN_SRC shell
 $ hugo
