@@ -4,3 +4,28 @@
 [[https://develop.spacemacs.org][file:https://cdn.rawgit.com/syl20bnr/spacemacs/442d025779da2f62fc86c2082703697714db6514/assets/spacemacs-badge.svg]]
 
 Source code for my personal website.
+
+** Prerequisites
+
+You can download Hugo from snap by running
+
+#+BEGIN_SRC shell
+$ snap install hugo
+#+END_SRC
+
+This project also depends on git submodules for the theme. In order for the
+project to compile, you must run
+
+#+BEGIN_SRC shell
+$ git submodule init
+$ git submodule update
+#+END_SRC
+
+** Compiling
+
+To compile the website, running
+
+#+BEGIN_SRC shell
+$ hugo
+#+END_SRC
+
