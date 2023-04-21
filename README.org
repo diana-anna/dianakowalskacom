@@ -21,11 +21,20 @@ $ git submodule init
 $ git submodule update
 #+END_SRC
 
-** Compiling
+** Local Development
 
 To compile the website, running
 
 #+BEGIN_SRC shell
 $ hugo
 #+END_SRC
+
+If you would like to see the website while you are making changes, you can run
+
+#+BEGIN_SRC shell
+$ hugo server
+#+END_SRC
+
+This will monitor for changes you make and update your local website in real
+time.
 
