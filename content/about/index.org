@@ -1,0 +1,23 @@
+* About
+
+I'm a full-stack developer based in Chicago, IL.
+
+** Skills
+
+[[][file:https://img.shields.io/badge/Node%20js-20232A?style=for-the-badge&logo=nodedotjs&logoColor=000000.svg]]
+[[][file:https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB.svg]]
+[[][file:https://img.shields.io/badge/Databricks-20232A?style=for-the-badge&logo=Databricks&logoColor=white.svg]]
+
+** Meet My Loyal Assistant
+
+#+ATTR_HTML: :width 100% :height 100% :class border-2 :alt Description of the image :title Image title
+[[./snowy-pfp.jpg]]
+{{ $image := .Resources.Get "snowy-pfp.jpg" }}
+
+
+Snowy dutifully lays in my lap and makes sure I'm writing quality code. Here is
+him sniffing out bugs:
+
+[[../static/images/snowy-sniffing.jpg]]
+
+

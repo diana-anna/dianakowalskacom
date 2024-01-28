@@ -1,1 +1,5 @@
-A list of projects (TBD)
+* Projects
+
+**** [[https://github.com/diana-anna/resume-template][LaTeX Resume Template]]
+
+The LaTeX template I use to write my resume.
