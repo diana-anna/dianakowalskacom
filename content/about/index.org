@@ -12,12 +12,12 @@ I'm a full-stack developer based in Chicago, IL.
 
 #+ATTR_HTML: :width 100% :height 100% :class border-2 :alt Description of the image :title Image title
 [[./snowy-pfp.jpg]]
-{{ $image := .Resources.Get "snowy-pfp.jpg" }}
 
 
 Snowy dutifully lays in my lap and makes sure I'm writing quality code. Here is
 him sniffing out bugs:
 
+#+ATTR_HTML: :width 100% :height 100% :class border-2 :alt Description of the image :title Image title
 [[../static/images/snowy-sniffing.jpg]]
 
 
