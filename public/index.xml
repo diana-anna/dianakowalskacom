@@ -5,24 +5,21 @@
     <link>http://www.dianakowalska.com/</link>
     <description>Recent content on Diana Kowalska</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="http://www.dianakowalska.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <atom:link href="http://www.dianakowalska.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>http://www.dianakowalska.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://www.dianakowalska.com/about/</guid>
-      <description>Welcome to my website!</description>
+      <description>About I&amp;#39;m a full-stack developer based in Chicago, IL.&#xA;Skills Meet My Loyal Assistant Snowy dutifully lays in my lap and makes sure I&amp;#39;m writing quality code. Here is him sniffing out bugs:</description>
     </item>
-    
     <item>
       <title></title>
       <link>http://www.dianakowalska.com/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>http://www.dianakowalska.com/projects/</guid>
-      <description>A list of projects (TBD)</description>
+      <description>Projects LaTeX Resume Template The LaTeX template I use to write my resume.</description>
     </item>
-    
   </channel>
 </rss>
