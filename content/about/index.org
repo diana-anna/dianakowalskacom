@@ -11,13 +11,13 @@ I'm a full-stack developer based in Chicago, IL.
 ** Meet My Loyal Assistant
 
 #+ATTR_HTML: :width 100% :height 100% :class border-2 :alt Description of the image :title Image title
-[[./snowy-pfp.jpg]]
+[[./snowy-pfp-square-cropped.jpg]]
 
 
 Snowy dutifully lays in my lap and makes sure I'm writing quality code. Here is
 him sniffing out bugs:
 
 #+ATTR_HTML: :width 100% :height 100% :class border-2 :alt Description of the image :title Image title
-[[./snowy-sniffing.jpg]]
+[[./snowy-sniffing-square-cropped.jpg]]
 
 
