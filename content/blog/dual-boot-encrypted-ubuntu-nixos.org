@@ -1,0 +1,57 @@
+* Dual Booting Ubuntu and NixOS with Encryption
+
+** Resources
+
+- [[https://www.mikekasberg.com/blog/2020/04/08/dual-boot-ubuntu-and-windows-with-encryption.html][How to Dual-Boot Ubuntu (16.04 - 22.10) and Windows (10 or 11) with Encryption | Mike Kasburg]]
+- [[https://shen.hong.io/installing-nixos-with-encrypted-root-partition-and-seperate-boot-partition][How to Install NixOS With Full Disk Encryption (FDE) using LUKS2, Detached LUKS Header, and A Separate Boot Partition on an USB/MicroSD Card | Shen's Essays]]
+- [[https://wiki.nixos.org/wiki/Full_Disk_Encryption][Full Disk Encryption | NixOS Wiki]]
+- [[https://wiki.archlinux.org/title/Dm-crypt/Encrypting_an_entire_system][dm-crypt/Encrypting an entire system | ArchWiki]]
+- [[https://medium.com/@manujarvinen/setting-up-a-multi-boot-of-5-linux-distributions-ca1fcf8d502][Setting up a multi-boot of 5 Linux distributions | Manu Järvinen | Medium]]
+
+** Setting Up the Disk
+
+Follow the steps in Mike Kasburg's guide to setting up the disk. Ignore all the
+setup for Windows since I am not installing Windows on this computer.
+
+*** /boot
+
+There are differing opinions on whether to have a separate ~/boot~ partition,
+but it seems to be necessary when you are encrypting your disk. I did not
+encrypt the ~/boot~ partition, although there are guides for doing that if you
+would like.
+
+There is also the question of how many ~/boot~ partitions to have. One is
+enough, but it may lead to conflicts, especially if you are installing two
+similar OSes (like Ubuntu and Debian). For now, I don't want to completely
+reformat my disk, since I already have Ubuntu installed. Hopefully, there will
+not be any conflicts between Ubuntu and NixOS. It is also possible to have one
+separate ~/boot~ partition for every operating system, and then setting the boot
+loader in the BIOS to the one you wish to boot. I may try that at some point.
+
+*** Main Partition
+
+Instead of creating one logical volume for root, I have created three logical
+volumes: one for Ubuntu, one for NixOS, and one shared data partition to hold
+documents, photos, git repos, etc...
+
+It is also possible to create separate disk partitions for swap, each OS, and
+shared data, and then set up LUKS on each partition separately. Note that you
+will have some additional configuring to do, especially if the passwords for
+these partitions are not the same.
+
+** Installing Ubuntu
+
+Currently, I already have Ubuntu 22.04 installed. I was going to install NixOS
+soon after I installed Ubuntu, but life got in the way... I installed Ubuntu
+following Mike's guide. There is a new guide for Ubuntu 24.04 that I have not
+tried. If installing NixOS goes well, that may be what I do next.
+
+** Installing NixOS
+
+I have only installed NixOS on a virtual machine before. My first bare metal
+attempt will be dual-booting on an encrypted drive lol. Let's hope all goes well.
+
+*** GRUB
+
+Seems like this will be an issue.
+
